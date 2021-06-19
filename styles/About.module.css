@@ -1,7 +1,24 @@
+.body{
+    background-color:lightgreen;
+}
 .title {
-    font-size: 44px;
-    color: red;
-    border: 1 px solid black;
-    font-family: cursive;
-
+    color: black;
+    font-size: 300%;
+    text-align: center;
+    background-color: darkred;
+    font-family:monospace;
+}
+.name {
+    font-size:250%;
+    text-align: left;
+    color: black;
+    font-family:monospace;
+    padding-left: 10%;
+}
+.image {
+    float: right;
+    width: 750px;
+    height: 100%;
+    padding: 25px;
+    border: inherit;
 }
