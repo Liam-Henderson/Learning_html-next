@@ -8,6 +8,15 @@
   height: 100vh;
 }
 
+.content_bg {
+  margin: 0;
+  background-image: url('../public/sea_to_sky_hwy.jpg');
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 .main {
   padding: 5rem 0;
   flex: 1;
