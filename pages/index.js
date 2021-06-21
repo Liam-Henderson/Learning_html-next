@@ -19,19 +19,19 @@ export default function Home() {
           Every thing you need to know to plan your weekend getaway in the Sea 2 Sky corridor!
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+      
+          <a href="/Pembertion" className={styles.card}>
             <h2>Pemberton &rarr;</h2>
             <p>Adventure begins here! Your gateway to unlimited wildness</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Whistler</h2>
+          <a href="/Whistler" className={styles.card}>
+            <h2>Whistler&rarr;</h2>
             <p>World class resort town, ready to welcome you year round</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="Squamish"
             className={styles.card}
           >
             <h2>Squamish&rarr;</h2>
@@ -45,7 +45,16 @@ export default function Home() {
             <h2>About the Author &rarr;</h2>
          
           </a>
-        </div>
+      <p className={styles.paragraph}>Highway 99 or the Sea to Sky corridor is a world class outdoor rectation hotspot. With a 
+        wide array of winter and summer actitives there is something to do year round. The highway links
+        three towns each with their own unquie offerings. Use this site to get to know each town and plan your next trip.
+      
+      </p>
+      <img
+        src="SeaToSky_HighwayMap.jpg"
+        alt="Map of the sea to sky highway"
+        className={styles.image}
+        />
       </main>
 
       <footer className={styles.footer}>

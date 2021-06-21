@@ -1,0 +1,19 @@
+.content_bg {
+    margin: 0;
+    background-image: url('../public/Whistler.jpg');
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.title{
+    font-size: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.description{
+    font-size: 50;
+    text-align: center;
+    font-family:cursive;
+}
