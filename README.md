@@ -1,13 +1,13 @@
-#Sea to Sky Web page
+# Sea to Sky Web page
 
 This Project is a website that is meant to help vistors plan trips to the Sea to Sea corridor.
 If has a page for each of towns along the Sea to Sky including:
-+Whistler
-+Squamish
-+pemberton
++ Whistler
++ Squamish
++ Pemberton
 And includes a short discription of me, the content author.
 
-##Reason for project
+## Reason for project
 I built this website to start learning the fundmentals of front end development. It was my first time using code that isnt python or javascript.
 
 ## Tecnology used
@@ -33,5 +33,9 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Project Status
+
+I have links between all the pages and some of the styling done. Alot of content left to add.
 
 
