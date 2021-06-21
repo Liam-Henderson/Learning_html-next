@@ -2,6 +2,10 @@ import styles from '../styles/About.module.css'
 
 const About = () => (
   <div className={styles.body}>
+    <header>
+      <title>Sea 2 Sky-About</title>
+    </header>
+    <main>
     <h1 className={styles.title}>About the Author</h1>
     <img
       src="liam_about.JPG"
@@ -52,6 +56,14 @@ const About = () => (
       <li className={styles.thirdelement}>Dont need to consider the order</li>
       <li className={styles.forthelement}>Good for grocrey lists</li>
     </ul>
+    </main>
+    <footer>
+    <footer className={styles.footer}>
+            <a href='/Whistler'><button type="button" className={styles.button}>Whistler</button></a>
+            <a href='/Pembertion'><button type="button" className={styles.button}>Pemberton</button></a>
+            <a href='/Squamish'><button type="button" className={styles.button}>Squamish</button></a>
+        </footer>
+    </footer>
   </div>
 );
 
