@@ -5,6 +5,7 @@ If has a page for each of towns along the Sea to Sky including:
 + Whistler
 + Squamish
 + Pemberton
+
 And includes a short discription of me, the content author.
 
 ## Reason for project

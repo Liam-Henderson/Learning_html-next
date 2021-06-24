@@ -44,4 +44,45 @@
     width: 100%;
   }
 
+  .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .paragraph{
+    width: 40%;
+    color:black;
+    padding: 2%;
+    order: 2;
+    flex-basis: auto;
+  }
+
+  .list{
+    width: 40%;
+    color: black;
+    padding: 2%;
+    order: 1;
+    flex-basis:auto;
+  }
+
+  .table_section {
+    width: 90%;
+    order: 3;
+    flex-basis: auto;
+    flex-grow: 2;
+  }
+
+  .table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .td {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left
+    }
 
