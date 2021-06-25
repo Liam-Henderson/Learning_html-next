@@ -12,6 +12,7 @@ const Squamish = () => (
         <h2 className={styles.description}>Canadas best spot for biking, climbing and windsurfing</h2>
         </main>
         <footer className={styles.footer}>
+            <a href='/'><button type="button" className={styles.button}>Home</button></a>
             <a href='/Whistler'><button type="button" className={styles.button}>Whistler</button></a>
             <a href='Pembertion'><button type="button" className={styles.button}>Pemberton</button></a>
             <a href='about'><button type="button" className={styles.button}>About</button></a>

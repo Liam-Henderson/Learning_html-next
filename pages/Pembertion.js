@@ -59,9 +59,11 @@ const pemberton = () => (
         </div>
         </main>
         <footer className={styles.footer}>
+            <a href='/'><button type="button" className={styles.button}>Home</button></a>
             <a href='/Whistler'><button type="button" className={styles.button}>Whistler</button></a>
             <a href='Squamish'><button type="button" className={styles.button}>Squamish</button></a>
             <a href='about'><button type="button" className={styles.button}>About</button></a>
+    
         </footer>
     </div>
 )

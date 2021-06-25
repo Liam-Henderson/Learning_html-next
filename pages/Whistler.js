@@ -12,7 +12,7 @@ const Whistler = () => (
             <h2 className={styles.description}>World class resort town, ready to welcome you year round</h2>
         </main>
         <footer className={styles.footer}>
-            <a href='index'><button type="button" className={styles.button}>Home</button></a>
+            <a href='/'><button type="button" className={styles.button}>Home</button></a>
             <a href='/Squamish'><button type="button" className={styles.button}>Squamish</button></a>
             <a href='Pembertion'><button type="button" className={styles.button}>Pemberton</button></a>
             <a href='about'><button type="button" className={styles.button}>About</button></a>

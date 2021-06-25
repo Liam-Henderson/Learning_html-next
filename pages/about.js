@@ -59,10 +59,11 @@ const About = () => (
     </main>
     <footer>
     <footer className={styles.footer}>
-            <a href='/Whistler'><button type="button" className={styles.button}>Whistler</button></a>
-            <a href='/Pembertion'><button type="button" className={styles.button}>Pemberton</button></a>
-            <a href='/Squamish'><button type="button" className={styles.button}>Squamish</button></a>
-        </footer>
+      <a href='/'><button type="button" className={styles.button}>Home</button></a>
+      <a href='/Whistler'><button type="button" className={styles.button}>Whistler</button></a>
+      <a href='/Pembertion'><button type="button" className={styles.button}>Pemberton</button></a>
+      <a href='/Squamish'><button type="button" className={styles.button}>Squamish</button></a>
+    </footer>
     </footer>
   </div>
 );
